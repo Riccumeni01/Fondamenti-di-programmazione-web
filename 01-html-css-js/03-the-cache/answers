@@ -1,0 +1,7 @@
+What does the ?v=1.0 do?
+Indica la versione del file css, serve per non fare ricaricare un file vecchio dalla cache.
+
+How does the browser cache works?
+La cache è un sistema di memorizzazione di dati che serve per rendere più 
+veloce il caricamento di una pagina. Funziona che se il file di cache non 
+è presente il client fa la richiesta al web server.
