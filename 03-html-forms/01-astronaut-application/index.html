@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astronaut Application</title>
+</head>
+<body>
+    <form action="https://prova.free.beeceptor.com" method="post" target="_self">
+
+        <ul>
+            <li>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required>
+
+                <label for="middle_name">Middle Name</label>
+                <input type="text" name="middlename" id="middle_name">
+
+                <label for="last_name">Last name</label>
+                <input type="text" name="lastname" id="last_name" required>
+            </li>
+            <li>
+                <label for="missions">Mission:</label>
+                <select name="mission" id="missions" required>
+                    <option value="near-earth-object-surveyor">Near-Earth Object Surveyor</option>
+                    <option value="europa-clipper">Europa Clipper</option>
+                    <option value=sperex">SPEREx</option>
+                </select>
+            </li>
+            <li>
+                <label for="date-birth">Age:</label>
+                <input type="date" name="date-birth" id="date-birth" required>
+
+                <label for="gender">Gender:</label>
+                <select name="gender" id="gender" required>
+                    <option value="male">male</option>
+                    <option value="female">female</option>
+                </select>
+
+                <label for="eye-color">Eye Color:</label>
+                <input type="color" name="eye-color" id="eye-color">
+            </li>
+            <li>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+
+                <label for="phone">Phone</label>
+                <input type="phone" name="phone" id="phone" required>
+
+                <label for="address">Address:</label>
+                <input type="text" name="address" id="address" required>
+            </li>
+            <li>
+                <label for="weight">Weight</label>
+                <input type="number" name="weight" id="weight" min="40" max="100" required>
+            </li>
+            <li>
+                <label for="biography">Short Biography</label>
+                <textarea name="biography" maxlength="255" placeholder="insert a biography..."></textarea>
+            </li>
+            <li>
+                <input type="reset">
+                <input type="submit">
+            </li>
+        </ul>
+        
+
+    </form>
+
+</body>
+</html>
