@@ -1,0 +1,17 @@
+p{
+    font-size: 1.2em;
+}
+
+ul li{
+    font-family: "Arial";
+}
+
+#lorem2{
+    background-color: blue;
+    color: yellow;
+}
+
+.lorem1-3{
+    background-color: yellow;
+    color: blue;
+}
