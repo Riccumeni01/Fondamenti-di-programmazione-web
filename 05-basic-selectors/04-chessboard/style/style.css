@@ -1,0 +1,34 @@
+/* 
+* first way to create a chessboard
+td{
+    width: 20px;
+    height: 20px;  
+}
+
+tr:nth-child(odd) td:nth-child(odd){
+    background: orange;
+}
+tr:nth-child(odd) td:nth-child(even){
+    background: black;
+}
+tr:nth-child(even) td:nth-child(even){
+    background: orange;
+}
+tr:nth-child(even) td:nth-child(odd){
+    background: black;
+} */
+
+/* 
+* Second way to create a chessboard (maybe more efficent and more readable)
+*/
+td {
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+}
+  
+tr:nth-child(odd) td:nth-child(even),
+tr:nth-child(even) td:nth-child(odd) {
+    background-color: black;
+}
+  
